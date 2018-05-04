@@ -1,0 +1,106 @@
+<html>
+<head>
+<title>Electronics | Kaufer.in</title>
+<link rel = "icon" href = "images/logo.jpg" type = "image/x-icon">
+</head>
+
+<body background = "images/backb.jpg">
+<style>
+head, body, {
+	position:fixed;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+}
+ul.ul {
+    list-style-type: none;
+    margin: 0;
+    padding:2;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+a.a:link, a.a:visited {
+    display: block;
+    width: 1000px;
+    font-weight: bold;
+    color: blue;
+    background-color: orange;
+    text-align: center;
+    padding: 4px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+a.a:hover, a.a:active {
+    background-color: #7A991A;
+}
+</style>
+
+<br><br><br><br><br><br><br><br><br><br><br><br>
+<ul class = "ul" style = "margin-left : 155px">
+<li><a class = "a" href = "open.htm"> Home</a></li> 
+
+</ul><br><br>
+
+
+
+
+<script type="text/javascript">
+var image1=new Image()
+image1.src="images/m1.jpg"
+var image2=new Image()
+image2.src="images/m2.jpg"
+</script>
+
+<img style = "margin-left : 200px" src="images/m1.jpg" name="slide"  border ="0" width="220" height="300" />
+<script>
+var step=1
+function slideit(){
+if (!document.images)
+return
+document.images.slide.src=eval("image"+step+".src")
+if (step<2)
+step++
+else
+step=1
+setTimeout("slideit()",2500)
+}
+slideit()
+</script>
+
+<style type ="text/css">
+#i
+{
+filter: FlipH;
+-ms-filter: "FlipH";
+-webkit-transform: scaleX(-1);
+ }</style>
+
+<div style = "float:right; margin-right : 300px">
+<h1><font face = "bebas neue" color = "darkblue" >Flippd Men's Apparel</font></h2><font color = "darkgreen">(Solid Formal Shirt)</font>
+<h2><b><font color = "blue">Rs. 799</b></h2></font>
+<b><h3>--ADD TO CART<br><br> --BUY NOW</h3></b>
+</div>
+<div style = "margin-left : 300px"><h3><font face = "andalus" color = "darkmagenta" >A Formal with Casual interpretations, easy to wear and wash, so rock on!!</h3></font>
+
+<div style = "float : right; margin-right : 300px"><a href = "#"><p style = "float : left"><b><font size = "4">Review</p></b></font><br><img src = "images/you.jpg"></div></a>
+<h1><font face = "Arial">Comments</h1>
+<textarea rows="4" cols="50">
+</textarea><br><br>
+<form><input type="submit" value="Submit">
+</form>
+<br>
+<hr style = "margin-left : 0px" width = "80%">
+<font face = "Bebas Neue" color = "green" size = "6" style = "margin-left : 300px"> Similar Products</font>
+
+<figure><img src = "images/m3.jpg" height = "100px" style = "margin-left : 260px"><br><br><figcaption style = "margin-left : 280px;"><font color = "purple"><b>Puma Running Shoes</font></b></figcaption></figure>
+
+
+<hr style = "margin-left : 0px" width = "80%">
+<br><br>
+<font color = "white" style = "margin-left : 300px">Copyright © Kaufer.in</font>
